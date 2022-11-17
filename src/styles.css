@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.todos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.heading {
+  color: darkorchid;
+  font-size: 60px;
+  letter-spacing: 10px;
+  line-height: 20px;
+}
+.todoInput {
+  height: 40px;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: 1px solid darkorchid;
+}
+.todoList {
+  max-height: 200px;
+  margin-bottom: 20px;
+}
+.todoItem {
+  height: 30px;
+  width: 180px;
+  border: 1px #dedede solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 0 10px;
+}
+.todoItemText {
+  font-size: 12px;
+}
+.delete {
+  width: 15px;
+  cursor: pointer;
+}
